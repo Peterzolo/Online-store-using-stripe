@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+body{
+    font-family: sans-serif, roboto;
+}
+
+#cart-table{
+    background-color: rgb(249, 252, 253);
+    padding: 5px;
+   border-radius: 5px;
+}
+
+
+.total-wrapper{
+    /* background-color: #ddd; */
+    width: 400px;
+    margin: auto;
+}
+
+.total{
+    display: flex;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 5px;
+    color: red;
+}
+
+.payment-btn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: green;
+    width: 400px;
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.table-head{
+    color: green;
+    text-align: center;
+}
+
+.quantity{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.price{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
